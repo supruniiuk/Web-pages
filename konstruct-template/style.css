@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*HEADER START*/
+.wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 41px;
+}
+header{
+    text-align: center;
+    background-color: chocolate;
+    color: white;
+}
+header img{
+    padding-bottom: 317px;
+}
+.partner{
+    font-family: Bebas Neue;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+}
+.under-partner{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 221px;
+}
+.scroll{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 3.7px;
+    padding-bottom: auto;
+}
+
+header{
+    max-width: 1438px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(images/bg.png) no-repeat;
+}
+/*HEADER END*/
