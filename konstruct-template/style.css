@@ -11,11 +11,10 @@
 .wrapper{
     max-width: 940px;
     margin: 0 auto;
-    padding-top: 41px;
 }
 header{
+    padding-top: 41px;
     text-align: center;
-    background-color: chocolate;
     color: white;
 }
 header img{
@@ -49,6 +48,37 @@ header{
     max-width: 1438px;
     margin: 0 auto;
     text-align: center;
-    background: url(images/bg.png) no-repeat;
+    background: url(images/bg.png) center;
+    background-size: cover;
+    padding-bottom: 71px;
 }
 /*HEADER END*/
+
+
+/*NAVIGATION START*/
+.menu{
+    border: 1px solid #E6E6E6;
+    padding: 24px 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul{
+    list-style: none;
+}
+.navigation a{
+    color: #48555B;
+    text-decoration:none;
+}
+.navigation li:not(:last-child){
+    padding-right: 40px;
+}
+/*NAVIGATION END*/
