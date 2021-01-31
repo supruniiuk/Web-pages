@@ -194,4 +194,31 @@ input[type=button]{
     color: white;
     letter-spacing: 0.5px;
 }
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 28px;
+    padding-bottom: 115px;
+}
+.card{
+    border: 1px solid #E6E6E6;
+    padding: 38px 22px;
+}
+.card img{
+    padding-bottom: 25px;
+}
+.card h4{
+    font-style: normal;
+    padding-bottom: 13px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+}
+.card p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+}
 /* MAIN INFO */
