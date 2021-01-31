@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -101,11 +99,11 @@ header{
 .story-title{
     font-style: normal;
     text-align: center;
-    font-weight: bold;
     font-size: 18px;
     line-height: 25px;
     position: relative;
     padding-bottom: 80px;
+    letter-spacing: 2.30625px;
 }
 .story-title::after {
     content: "";
@@ -159,5 +157,41 @@ header{
     font-size: 24px;
     line-height: 29px;
     max-width: 110px;
+}
+
+
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 78px;
+}
+.services p{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    max-width: 405px;
+}
+.services-title{
+    text-align: left;
+    padding-right: 155px;
+    padding-bottom: 0;
+}
+.services-title::after{
+    left: 0;
+}
+
+.button{
+    padding: 11px 29px;
+    background: #00A4E5;
+    height: 40px;
+    border: none;
+}
+input[type=button]{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.5px;
 }
 /* MAIN INFO */
