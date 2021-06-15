@@ -1,1 +1,2 @@
-# Web-pages
+# Web pages
+* konstruct-template
