@@ -1,98 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    line-height: 2em;
+  margin: 0;
+  padding: 0;
+  line-height: 2em;
 }
 :root {
-    --orange: hsl(31, 77%, 52%);
-    --green: hsl(184, 100%, 22%);
-    --dark-green: hsl(179, 100%, 13%);
+  --orange: hsl(31, 77%, 52%);
+  --green: hsl(184, 100%, 22%);
+  --dark-green: hsl(179, 100%, 13%);
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  padding: 50px 0px;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.cards {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  max-width: 1100px;
+}
+
+.car {
+  padding: 30px 80px 30px 30px;
+}
+
+.car img {
+  margin-top: 70px;
+}
+.car h1 {
+  font-family: Big Shoulders Display;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+.car p {
+  font-family: "Lexend Deca";
+  line-height: 2em;
+  margin-bottom: 60px;
+}
+
+.sedans {
+  background-color: var(--orange);
+  border-radius: 20px 0px 0px 20px;
+}
+.suvs {
+  background-color: var(--green);
+}
+.luxury {
+  background-color: var(--dark-green);
+  border-radius: 0px 20px 20px 0px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  padding: 10px 40px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s linear;
+  border: 2px solid #f2f2f2;
+  margin-bottom: 40px;
+}
+
+.sedans button {
+  color: var(--orange);
+}
+.suvs button {
+  color: var(--green);
+}
+.luxury button {
+  color: var(--dark-green);
+}
+
+.sedans button:hover {
+  background-color: var(--orange);
+}
+.suvs button:hover {
+  background-color: var(--green);
+}
+.luxury button:hover {
+  background-color: var(--dark-green);
+}
+button:hover {
+  color: #f2f2f2;
+}
+
+footer {
+  width: 80%;
+  margin: 5px auto;
+  text-align: center;
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+  color: red;
+  transition: 0.3s linear;
+}
+
+@media (max-width: 930px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
   }
-body{
-    background-color: hsl(0, 0%, 95%);
-    padding: 50px 0px;
-    font-size: 15px;
-    color: hsla(0, 0%, 100%, 0.75);
-}
-
-.cards{
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 90%;
-    height: 83vh;
-    max-width: 1100px;
-    max-height: 600px;
-}
-
-.car{
-    padding: 30px 70px 30px 30px;
-}
-
-.car img{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    min-height: 76px;
-}
-.car h1{
-    font-family: Big Shoulders Display;
-    text-transform: uppercase;
-    color: hsl(0, 0%, 95%);
-    margin-bottom: 30px;
-    font-size: 2.5em;
-}
-.car p{
-    font-family: 'Lexend Deca';
-    line-height: 2em;
-    margin-bottom: 60px;
-}
-
-.sedans{
-    background-color: var(--orange);
-    border-radius: 20px 0px 0px 20px;
-}
-.suvs{
-    background-color: var(--green);
-}
-.luxury{
-    background-color: var(--dark-green);
-    border-radius: 0px 20px 20px 0px;
-}
-
-button{
-    cursor: pointer;
-    background-color: #f2f2f2;
-    font-size: 15px;
-    font-family: 'Lexend Deca';
-    padding: 10px 40px;
-    outline: none;
-    border: none;
-    border-radius: 50px;
-    transition: .3s linear;
-    border: 2px solid #f2f2f2;
-}
-
-.sedans button{
-    color: var(--orange);
-}
-.suvs button{
-    color: var(--green);
-}
-.luxury button{
-    color: var(--dark-green);
-}
-
-.sedans button:hover{
-    background-color: var(--orange);
-}
-.suvs button:hover{
-    background-color: var(--green);
-}
-.luxury button:hover{
-    background-color: var(--dark-green);
-}
-button:hover{
-    color: #f2f2f2;
+  .sedans {
+    border-radius: 20px 20px 0px 0px;
+  }
+  .luxury {
+    border-radius: 0px 0px 20px 20px;
+  }
 }
