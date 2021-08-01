@@ -178,10 +178,10 @@ header p {
   margin-bottom: 40px;
   color: #12100c;
 }
-.remove-first p {
+.remove-first .text {
+  margin: 0 auto;
   max-width: 850px;
   margin-top: 30px;
-  margin: 0 auto;
 }
 
 .extension {
@@ -201,6 +201,7 @@ header p {
   border-radius: 9px;
 }
 .extension div p {
+  margin-left: 11px;
   font-weight: bold;
   font-size: 18px;
   line-height: 32px;
@@ -208,12 +209,30 @@ header p {
 }
 
 /* DEVELOPERS */
-.developers{
-  text-align:center;
+.developers {
+  text-align: center;
+  height: 300px;
+  background: red;
 }
 .developers h1 {
   font-weight: bold;
   font-size: 54px;
   line-height: 64px;
   color: #12100c;
+}
+
+/* BRANDS */
+.brands {
+  margin-top: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.brands img {
+  /*  flex: 0 0 150px;*/
+  flex: 0 0 calc(20% - 150px);
+  margin: 25px;
+  align-self: center;
+  justify-self: center;
 }
