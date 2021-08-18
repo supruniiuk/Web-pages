@@ -50,6 +50,7 @@ h1 {
 }
 
 /* HEASER START */
+
 header {
   padding: 20px 0px;
 }
@@ -94,6 +95,7 @@ header p {
 }
 
 /* MAIN SECTION */
+
 .main-section {
   margin-top: 52px;
   margin-bottom: 176px;
@@ -136,6 +138,7 @@ header p {
 }
 
 /* START CODING */
+
 .start-coding {
   display: flex;
   justify-content: center;
@@ -153,6 +156,7 @@ header p {
 }
 
 /* CI/CD START */
+
 .ci-cd {
   margin-bottom: 337px;
 }
@@ -178,6 +182,7 @@ header p {
 }
 
 /* REMOTE FIRST */
+
 .remove-first {
   text-align: center;
   margin-bottom: 176px;
@@ -214,6 +219,7 @@ header p {
 }
 
 /* DEVELOPERS */
+
 .developers {
   text-align: center;
   height: 300px;
@@ -221,6 +227,7 @@ header p {
 }
 
 /* BRANDS */
+
 .brands {
   margin-top: 130px;
   display: flex;
@@ -328,4 +335,30 @@ header p {
   padding: 7px 12px;
   max-width: 143px;
   color: white;
+}
+
+/* FOOTER START */
+
+footer {
+  background: #f9f9f9;
+}
+
+footer td {
+  padding-bottom: 7px;
+}
+footer td:not(:last-child) {
+  width: 270px;
+}
+
+footer table {
+  font-size: 13px;
+  line-height: 19px;
+  text-align: left;
+  margin: auto;
+  padding: 47px;
+}
+footer th {
+  font-weight: bold;
+  color: #12100c;
+  padding-bottom: 7px;
 }
