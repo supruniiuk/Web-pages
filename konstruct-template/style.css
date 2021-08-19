@@ -183,6 +183,7 @@ header {
   height: 40px;
   border: none;
 }
+
 input[type="button"] {
   font-size: 13px;
   line-height: 18px;
@@ -374,3 +375,8 @@ footer {
   margin-right: 25px;
 }
 /* FOOTER */
+
+
+.button:hover {
+  background-color: #01598E;
+}
