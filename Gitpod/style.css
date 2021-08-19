@@ -31,9 +31,16 @@ button {
   border-radius: 16px;
   border: none;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
+
 button:active {
   outline: none;
+}
+
+button:hover {
+  opacity: 80%;
 }
 
 .flex {
@@ -77,7 +84,14 @@ header p {
   display: inline;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
+  transition-duration: 0.2s;
 }
+
+.navigation li:hover {
+  color: var(--main-black);
+} 
+
 .navigation li:not(:last-child) {
   margin-right: 48px;
 }
@@ -198,6 +212,7 @@ header p {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .extension div {
@@ -222,8 +237,43 @@ header p {
 
 .developers {
   text-align: center;
-  height: 300px;
-  background: red;
+}
+
+.devs {
+  display: grid;
+  grid-template-columns: 384px 384px 384px;
+  justify-content: center;
+  grid-gap: 24px;
+}
+
+.developers h1 {
+  margin-bottom: 57px;
+}
+
+.developer {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.developer p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #12100c;
+  text-align: left;
+}
+
+.developer img {
+  margin-right: 12px;
+  vertical-align: top;
+  align-self: baseline;
+}
+.developer div {
+  margin-top: 14px;
+  display: flex;
+}
+.developer b:first-child {
+  margin-bottom: 8px;
 }
 
 /* BRANDS */
@@ -241,6 +291,7 @@ header p {
   margin: 25px;
   align-self: center;
   justify-self: center;
+  cursor: pointer;
 }
 
 /* GET STARTED */
@@ -328,6 +379,7 @@ header p {
   padding: 15px 12px;
   background: var(--launch-card);
   margin-bottom: 12px;
+  cursor: pointer;
 }
 
 .launch-btn {
@@ -341,24 +393,46 @@ header p {
 
 footer {
   background: #f9f9f9;
+  padding: 47px;
 }
 
 footer td {
   padding-bottom: 7px;
 }
 footer td:not(:last-child) {
-  width: 270px;
+  padding-right: 170px;
 }
 
 footer table {
   font-size: 13px;
   line-height: 19px;
   text-align: left;
-  margin: auto;
-  padding: 47px;
+  padding-bottom: 46px;
+  border-bottom: 1px solid #ece7e5;
 }
+
 footer th {
   font-weight: bold;
   color: #12100c;
   padding-bottom: 7px;
+}
+
+footer td {
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+footer td:hover {
+  color: var(--main-black);
+}
+
+.copyright {
+  padding-top: 35px;
+  font-size: 13px;
+  line-height: 19px;
+  width: 900px;
+}
+
+.copyright svg {
+  margin-right: 15px;
 }
