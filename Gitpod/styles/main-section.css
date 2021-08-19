@@ -1,0 +1,40 @@
+.main-section {
+  margin-top: 52px;
+  margin-bottom: 176px;
+}
+.try {
+  max-width: 550px;
+}
+.try .head {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 88px;
+  color: var(--main-black);
+  margin-bottom: 38px;
+}
+.dev-env p {
+  line-height: 32px;
+}
+.dev-env {
+  margin-bottom: 48px;
+}
+.try-now {
+  display: flex;
+  justify-content: start;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 18px;
+}
+.Button {
+  padding: 11px 46px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-right: 24px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.yellowBtn {
+  background-color: var(--orange);
+}
+.company-icon img {
+  margin-right: 29px;
+}

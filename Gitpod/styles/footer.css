@@ -1,0 +1,45 @@
+footer {
+  background: #f9f9f9;
+  padding: 47px;
+}
+
+footer td {
+  padding-bottom: 7px;
+}
+footer td:not(:last-child) {
+  padding-right: 170px;
+}
+
+footer table {
+  font-size: 13px;
+  line-height: 19px;
+  text-align: left;
+  padding-bottom: 46px;
+  border-bottom: 1px solid #ece7e5;
+}
+
+footer th {
+  font-weight: bold;
+  color: #12100c;
+  padding-bottom: 7px;
+}
+
+footer td {
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+footer td:hover {
+  color: var(--main-black);
+}
+
+.copyright {
+  padding-top: 35px;
+  font-size: 13px;
+  line-height: 19px;
+  width: 900px;
+}
+
+.copyright svg {
+  margin-right: 15px;
+}

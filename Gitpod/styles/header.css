@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+
+
+header {
+  padding: 20px 0px;
+}
+
+header p {
+  letter-spacing: 1px;
+  font-family: "Lexend";
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: black;
+}
+
+.navigation {
+  list-style: none;
+}
+
+.navigation li {
+  display: inline;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.navigation li:hover {
+  color: var(--main-black);
+}
+
+.navigation li:not(:last-child) {
+  margin-right: 48px;
+}
+
+.login {
+  background-color: var(--main-black);
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 23px;
+  border-radius: 12px;
+  color: white;
+  outline: none;
+  border: none;
+  font-family: Roboto;
+}

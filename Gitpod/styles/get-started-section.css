@@ -1,0 +1,93 @@
+.get-started {
+  padding: 0px 65px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 160px;
+}
+
+.cards {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 56px;
+  width: 642px;
+}
+
+.card > p {
+  margin-bottom: 62px;
+}
+.card-p {
+  max-width: 486px;
+  margin: 0 auto;
+}
+
+.card h3 {
+  color: var(--main-black);
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.card .orange {
+  background: var(--dark-orange);
+}
+
+.card .black {
+  background: black;
+}
+
+.card .blue {
+  background: var(--btn-blue);
+  margin-bottom: 64px;
+}
+
+.connect button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+  padding: 11px 0px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  width: 262px;
+
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.card img {
+  margin-right: 16px;
+}
+
+.gitpod-io {
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 32px;
+  background: #ffe4bc;
+  border-radius: 12px;
+  width: 150px;
+  margin-top: 6px;
+  border-radius: 12px;
+}
+
+.launch-card {
+  padding: 15px 12px;
+  background: var(--launch-card);
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.launch-btn {
+  background-color: var(--main-black);
+  padding: 7px 12px;
+  max-width: 143px;
+  color: white;
+}

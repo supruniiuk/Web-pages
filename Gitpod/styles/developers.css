@@ -1,0 +1,58 @@
+.developers {
+  text-align: center;
+}
+
+.devs {
+  display: grid;
+  grid-template-columns: 384px 384px 384px;
+  justify-content: center;
+  grid-gap: 24px;
+}
+
+.developers h1 {
+  margin-bottom: 57px;
+}
+
+.developer {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.developer p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #12100c;
+  text-align: left;
+}
+
+.developer img {
+  margin-right: 12px;
+  vertical-align: top;
+  align-self: baseline;
+}
+.developer div {
+  margin-top: 14px;
+  display: flex;
+}
+.developer b:first-child {
+  margin-bottom: 8px;
+}
+
+/* BRANDS */
+
+.brands {
+  margin-top: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.brands img {
+  /*  flex: 0 0 150px;*/
+  flex: 0 0 calc(20% - 150px);
+  margin: 25px;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
