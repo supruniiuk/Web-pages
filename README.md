@@ -1,7 +1,7 @@
 # Web pages
 * [Konstruct](#konstruct)
 * [Gitpod](#gitpod)  
-* [Wild Souls] (#wild-souls)
+* [Wild Souls](#wild-souls)
 * [3-Column-preview-card](#column-preview-card)
 
 <a name="konstruct"><h2>Konstruct</h2></a>
