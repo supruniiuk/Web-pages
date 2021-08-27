@@ -1,0 +1,41 @@
+main {
+  background: #ed7b49;
+  padding: 76px;
+}
+
+.no-gluten {
+  position: relative;
+  width: 241px;
+  height: 241px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.no-gluten:after {
+  content: url(../svgs/No.svg);
+  color: white;
+  position: absolute;
+  text-align: center;
+}
+
+.product-section-title h1 {
+  font-weight: bold;
+  font-size: 85px;
+  line-height: 93px;
+}
+
+.product-section-title p{
+  width:490px;
+  padding-bottom: 25px;
+}
+
+.product-section-title{
+  margin: 0 auto;
+  width: 845px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 120px;
+}

@@ -1,9 +1,12 @@
 header {
+  position: relative;
   background: url(../images/Cactus.png) no-repeat;
   background-size: 100%;
-  height: 100%;
+  height: 897px;
   padding: 30px 165px;
   text-align: center;
+
+  overflow: hidden;
 }
 
 a {
@@ -52,4 +55,37 @@ a:not(img):hover::after {
   font-size: 85px;
   line-height: 93px;
   font-family: Lora;
+}
+
+.scroll-link {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-circle {
+  background: #000000;
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  border: solid #ffffff;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 20%;
+  border-width: 0 4px 4px 0;
+}
+.down {
+  transform: rotate(45deg);
+  margin-bottom: 10%;
+}
+.arrow-circle:hover .down {
+  margin-bottom: 0;
+  /*transform: all 3s ease 0s;*/
 }
